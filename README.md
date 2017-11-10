@@ -10,4 +10,4 @@
 
   4 .几种侧滑菜单的实现
 
-  5 .ObjectAnimator的几种动画实现
+  5 .ObjectAnimator的几种动画实现。
