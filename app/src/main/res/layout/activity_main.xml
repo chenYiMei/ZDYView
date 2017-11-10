@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fengyangts.jplaytext.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <ProgressBar
+        android:progress="40"
+        android:max="100"
+        android:progressDrawable="@drawable/bar_color"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/button"
+        android:layout_width="400dp"
+        android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textNum"
+            android:textSize="18sp"
+            android:text="40%"
+            android:gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+    <Button
+        android:text="slidemenu"
+        android:id="@+id/slide"
+        android:layout_marginTop="40dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp" />
+    <Button
+        android:text="Drawerlayout"
+        android:id="@+id/slide1"
+        android:layout_marginTop="80dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp" />
+    <Button
+        android:text="scolllayout"
+        android:id="@+id/scolllayout"
+        android:layout_marginTop="120dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp" />
+
+    <Button
+        android:text="popWindow"
+        android:id="@+id/popWindow"
+        android:layout_marginTop="160dp"
+        android:layout_width="140dp"
+        android:layout_height="40dp" />
+    <RelativeLayout
+        android:background="@color/colorAccent2"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+    <TextView
+        android:id="@+id/textWen"
+        android:gravity="center_vertical"
+        android:text=""
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/botImg"
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+   <ImageView
+       android:transitionName="sharedView"
+       android:id="@+id/img"
+       android:src="@mipmap/bg"
+       android:layout_centerInParent="true"
+       android:layout_alignParentBottom="true"
+       android:layout_width="140dp"
+       android:layout_height="140dp" />
+</RelativeLayout>
